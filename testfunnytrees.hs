@@ -1,6 +1,8 @@
 import Test.HUnit
 import FT
 
+-- Invoke the top-level main function to run the unit test suite
+
 -- some trees for testing
 
 smallestTree = FunnyNode 42 []
