@@ -32,7 +32,7 @@ Below is a Haskell definition for a recursive datatype that represents a tree wi
 data FunnyTree a = FunnyNode a [FunnyTree a]
 ```
 
-You should Define the following functions for this datatype:
+You should define the following functions for this datatype:
 
 ``` haskell
 treeNodeCount :: FunnyTree a -> Int
@@ -46,7 +46,7 @@ treeMap :: (a->b) -> FunnyTree a -> FunnyTree b
 -- map a function over the elements contained in FunnyNodes - preserving
 tree structure but changing contained values
 
-treeFold :: (b -> a -> b) -> b -> FunnyTree a -> b
+treeFold :: (b->a->b) -> b -> FunnyTree a -> b
 -- fold a function over a FunnyTree - reducing the Tree to a value.
 This is similar to foldl for lists.
 ```
