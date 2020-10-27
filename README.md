@@ -51,7 +51,7 @@ treeFold :: (b->a->b) -> b -> FunnyTree a -> b
 This is similar to foldl for lists.
 ```
 
-Use the FT.hs file as a template for your solution. This is the source code file you will need to submit on Moodle (via cut-and-paste).
+Use the FT.hs file as a template for your solution. This is the source code file you will need to submit on Moodle (via cut-and-paste). Do not change the type signatures for these functions. Please only change the code for the function definition. You may use library functions from the GHC Prelude and/or from the Data.List libraries only.
 
 If you have the [HUnit](https://hackage.haskell.org/package/HUnit) library installed then you can use the testfunnytrees.hs file to run a small set of unit tests on your code.
 
