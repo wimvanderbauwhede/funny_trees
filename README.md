@@ -4,7 +4,7 @@ This coursework exercise for [COMPSCI4021](https://www.gla.ac.uk/coursecatalogue
 
 ## Coursework Instructions
 
-Students need to write code for four functions that operate on the FunnyTree data structure, then submit their code via the internal Moodle site at https://moodle.gla.ac.uk/mod/lti/view.php?id=1921799
+Students need to write code for four functions in FT.hs that operate on the FunnyTree data structure, then submit this code via the internal Moodle site at https://moodle.gla.ac.uk/mod/lti/view.php?id=1921799
 
 In a second stage, students need to review other students' submissions and compare them for correctness and code quality. This peer comparison exercise is a valuable learning activity - exploring how other people approached a problem that you have already tackled yourself.
 
@@ -53,14 +53,14 @@ treeFold :: (a->b->b) -> b -> FunnyTree a -> b
 -- This is similar to foldr for lists.
 ```
 
-Use the FT.hs file as a template for your solution. This is the source code file you will need to submit on Moodle (via cut-and-paste). Do not change the type signatures for these functions. Please only change the code for the function definition. You may use library functions from the GHC Prelude and/or from the Data.List libraries only.
+Use the FT.hs file as a template for your solution. This is the source code file you will need to submit on Moodle (via cut-and-paste). Do not change the type signatures for these functions. Please only change the code for the function definitions in the FT.hs file. You may use library functions from the GHC Prelude and/or from the Data.List libraries only. You will need to import Data.List in FT.hs if you want to use these functions.
 
 If you have the [HUnit](https://hackage.haskell.org/package/HUnit) library installed then you can use the testfunnytrees.hs file to run a small set of unit tests on your code.
 
 
 ## Deadlines
 
-Submit your source code solution before the end of Monday 2 November. Then the second phase of the coursework begins on Tuesday 3 November - this involves reading and reviewing other people's source code. You use the same Moodle URL as for initial submission, and compare pairs of solutions to each other using a standard set of criteria. This reviewing phase ends on Monday 9 November.
+Submit your FT.hs source code solution before the end of Monday 2 November. Then the second phase of the coursework begins on Tuesday 3 November - this involves reading and reviewing other people's source code. You use the same Moodle URL as for initial submission, and compare pairs of solutions to each other using a standard set of criteria. This reviewing phase ends on Monday 9 November.
 
 ## Contact
 
