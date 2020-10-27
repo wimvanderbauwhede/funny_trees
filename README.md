@@ -1,6 +1,6 @@
 # Funny Trees Exercise
 
-This coursework exercise for COMPSCI4021 students at the University of Glasgow was set in Oct 2020.
+This coursework exercise for [COMPSCI4021](https://www.gla.ac.uk/coursecatalogue/course/?code=COMPSCI4021) students at the University of Glasgow was set in Oct 2020.
 
 ## Coursework Instructions
 
