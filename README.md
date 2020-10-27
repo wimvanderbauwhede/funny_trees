@@ -39,16 +39,18 @@ treeNodeCount :: FunnyTree a -> Int
 -- count how many FunnyNode instances are in a FunnyTree
 
 treeDepth :: FunnyTree a -> Int
--- what is the maximum depth of a tree, from the root node the furthest node with no children? Depth is a count of the number of FunnyNode instances on a path from the root to a node with no children. So the minimum depth of a FunnyTree will be 1.
-
+-- what is the maximum depth of a tree, from the root node to the
+-- furthest node with no children? Depth is a count of the number
+-- of FunnyNode instances on a path from the root to a node with
+-- no children. So the minimum depth of a FunnyTree will be 1.
 
 treeMap :: (a->b) -> FunnyTree a -> FunnyTree b
--- map a function over the elements contained in FunnyNodes - preserving
-tree structure but changing contained values
+-- map a function over the elements contained in FunnyNodes -
+-- preserving tree structure but changing contained values
 
-treeFold :: (b->a->b) -> b -> FunnyTree a -> b
+treeFold :: (a->b->b) -> b -> FunnyTree a -> b
 -- fold a function over a FunnyTree - reducing the Tree to a value.
-This is similar to foldl for lists.
+-- This is similar to foldr for lists.
 ```
 
 Use the FT.hs file as a template for your solution. This is the source code file you will need to submit on Moodle (via cut-and-paste). Do not change the type signatures for these functions. Please only change the code for the function definition. You may use library functions from the GHC Prelude and/or from the Data.List libraries only.
