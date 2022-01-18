@@ -1,10 +1,10 @@
 # Funny Trees Exercise
 
-This coursework exercise for [COMPSCI4021](https://www.gla.ac.uk/coursecatalogue/course/?code=COMPSCI4021) students at the University of Glasgow was set in Oct 2020.
+This coursework exercise for [COMPSCI4021](https://www.gla.ac.uk/coursecatalogue/course/?code=COMPSCI4021) students at the University of Glasgow was set in Feb 2022.
 
 ## Coursework Instructions
 
-Students need to write code for four functions in FT.hs that operate on the FunnyTree data structure, then submit this code via the internal Moodle site at https://moodle.gla.ac.uk/mod/lti/view.php?id=1921799
+Students need to write code for four functions in FT.hs that operate on the FunnyTree data structure, then submit this code via the Aropa site at https://aropa.gla.ac.uk/aropa/aropa.php?action=login&at=2
 
 In a second stage, students need to review other students' submissions and compare them for correctness and code quality. This peer comparison exercise is a valuable learning activity - exploring how other people approached a problem that you have already tackled yourself.
 
