@@ -60,8 +60,8 @@ If you have the [HUnit](https://hackage.haskell.org/package/HUnit) library insta
 
 ## Deadlines
 
-Submit your FT.hs source code solution before the end of Monday 2 November. Then the second phase of the coursework begins on Tuesday 3 November - this involves reading and reviewing other people's source code. You use the same Moodle URL as for initial submission, and compare pairs of solutions to each other using a standard set of criteria. This reviewing phase ends on Monday 9 November.
+Submit your FT.hs source code solution before the end of Mon 14 Feb. Then the second phase of the coursework begins on Tuesday 15 Feb - this involves reading and reviewing other people's source code. You use the same Aropa system as for initial submission, and compare pairs of solutions to each other using a standard set of criteria. This reviewing phase ends on Monday 21 Feb.
 
 ## Contact
 
-Any questions, please get in touch with Jeremy via his university email address.
+Any questions, please get in touch with Wim via his university email address.
