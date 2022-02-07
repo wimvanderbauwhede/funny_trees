@@ -1,12 +1,14 @@
 # Funny Trees Exercise
 
-This coursework exercise for [COMPSCI4021](https://www.gla.ac.uk/coursecatalogue/course/?code=COMPSCI4021) students at the University of Glasgow was set in Feb 2022.
+This is a coursework exercise for [COMPSCI4021](https://www.gla.ac.uk/coursecatalogue/course/?code=COMPSCI4021) students at the University of Glasgow, Feb 2022.
 
 ## Coursework Instructions
 
-Students need to write code for four functions in FT.hs that operate on the FunnyTree data structure, then submit this code via the Aropa site at https://aropa.gla.ac.uk/aropa/aropa.php?action=login&at=2
+The coursework has two stages:
 
-In a second stage, students need to review other students' submissions and compare them for correctness and code quality. This peer comparison exercise is a valuable learning activity - exploring how other people approached a problem that you have already tackled yourself.
+1. In the first stage, you need to write code for four functions in `FT.hs` that operate on the `FunnyTree` data structure, then submit this code via the ["Peer review submission on Aropä"](https://moodle.gla.ac.uk/mod/lti/view.php?id=2569026) link on the COMPSCI4021 Moodle page. 
+
+2. In a second stage, you need to review other students' submissions and compare them for correctness and code quality. This peer comparison exercise is a valuable learning activity &mdash; exploring how other people approached a problem that you have already tackled yourself.
 
 ## Coursework Marking Scheme
 
@@ -22,7 +24,8 @@ _Submitting a solution_ (marked out of 5):
 
 _Participation in the peer assessment_ (marked out of 5):
  * 1 mark for every pair-wise comparison properly completed, up to a maximum of 5 marks
-
+ * _pairwise_ means that for 5 submissions 1,2,3,4,5, you compare 1 to 2, 2 to 3, 3 to 4, 4 to 5 and 5 to 1.
+ * Please comment on correctness, completeness and code quality (clarity, readability, elegance)
 
 ## Problem Context
 
@@ -53,15 +56,29 @@ treeFold :: (a->b->b) -> b -> FunnyTree a -> b
 -- This is similar to foldr for lists.
 ```
 
-Use the FT.hs file as a template for your solution. This is the source code file you will need to submit on Moodle (via cut-and-paste). Do not change the type signatures for these functions. Please only change the code for the function definitions in the FT.hs file. You may use library functions from the GHC Prelude and/or from the Data.List libraries only. You will need to import Data.List in FT.hs if you want to use these functions.
+Use the `FT.hs` file as a template for your solution. This is the source code file you will need to submit on Moodle (by uploading the `FT.hs` file in Aropä peer review system). Do not change the type signatures for these functions. Please only change the code for the function definitions in the `FT.hs` file. You may use library functions from the GHC Prelude and/or from the `Data.List` libraries only. You will need to import `Data.List` in `FT.hs` if you want to use these functions.
 
-If you have the [HUnit](https://hackage.haskell.org/package/HUnit) library installed then you can use the testfunnytrees.hs file to run a small set of unit tests on your code.
+We provide a small set of unit tests, using them is optional and you can write your own if you like. The easiest way to test your submission is by using `stack`: 
+
+- In the folder `FunnyTrees`, run the command
+
+    stack init
+
+- Then complete the code in `src/FT.hs`
+- You can now test your code by running
+
+    stack test
+
+Alternatively, if want to run the tests without `stack`, you'll need to install the [HUnit](https://hackage.haskell.org/package/HUnit) library in another way, e.g. with `cabal`. You can use the `test/testfunnytrees.hs` file to run the unit tests, for example by running `runhaskell test/testfunnytrees.hs`.
 
 
 ## Deadlines
 
-Submit your FT.hs source code solution before the end of Mon 14 Feb. Then the second phase of the coursework begins on Tuesday 15 Feb - this involves reading and reviewing other people's source code. You use the same Aropa system as for initial submission, and compare pairs of solutions to each other using a standard set of criteria. This reviewing phase ends on Monday 21 Feb.
+* Submit your `FT.hs` source code solution before the end of Mon 14 Feb. 
+* The second phase of the coursework begins on Tuesday 15 Feb. 
+    This involves reading and reviewing other people's source code. You use the same Aropä system as for initial submission, and compare pairs of solutions to each other using a standard set of criteria. 
+* This reviewing phase ends on Monday 21 Feb.
 
 ## Contact
 
-Any questions, please get in touch with Wim via his university email address.
+Any questions, please get in touch with Wim via his university email address or in the clinics.

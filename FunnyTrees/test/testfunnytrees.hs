@@ -2,6 +2,7 @@ import Test.HUnit
 import FT
 
 -- Invoke the top-level main function to run the unit test suite
+-- If you are using stack, just run `stack test`
 
 -- some trees for testing
 
@@ -21,9 +22,9 @@ test4 = TestCase $ treeDepth smallestTree @?= 1
 test5 = TestCase $ treeDepth longTree @?= 5
 test6 = TestCase $ treeDepth balancedTree @?= 3
 test7 = TestCase $ treeMap (+1) smallestTree @?= (FunnyNode 43 [])
-test8 = TestCase $ treeFold (++) "" balancedTree @?= "rootmid1leaf1mid2leaf2"
+test8 = TestCase $ treeFold (++) "" balancedTree @?= "rootmid2leaf2mid1leaf1"
 test9 = TestCase $ treeFold (:) [] longTree @?= "abcde"
-
+tests :: Test
 tests = TestList [test1,test2,test3,test4,test5,test6,test7,test8,test9]
 
 main :: IO ()
